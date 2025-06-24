@@ -11,5 +11,4 @@
 		<PackageReference Include="Microsoft.Identity.Client.Extensions.Msal" Version="4.67.2" />
 		<PackageReference Include="Microsoft.Agents.CopilotStudio.Client" Version="1.1.*-*"/> 
 	</ItemGroup>
-
 </Project>

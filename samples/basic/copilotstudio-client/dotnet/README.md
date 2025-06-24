@@ -129,3 +129,7 @@ The CopilotStudio Client requires a Token provided by the developer to operate. 
 
 The Copilot client will use a named `HttpClient` retrieved from the `IHttpClientFactory` as `mcs` injected in DI. This client needs to be configured with a `DelegatingHandler` to apply a valid Entra ID Token. In this sample using MSAL.
 
+Type following to run
+
+cd "c:\Users\bau\Agents\Agents\samples\basic\copilotstudio-client\dotnet"
+dotnet ".\bin\Release\net8.0\CopilotStudioClient.dll"
