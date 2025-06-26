@@ -129,6 +129,18 @@ The CopilotStudio Client requires a Token provided by the developer to operate. 
 
 The Copilot client will use a named `HttpClient` retrieved from the `IHttpClientFactory` as `mcs` injected in DI. This client needs to be configured with a `DelegatingHandler` to apply a valid Entra ID Token. In this sample using MSAL.
 
+### 📊 Authentication & Message Flow Diagrams
+
+For a detailed visual explanation of the authentication and message exchange process, see the **[Authentication Flow Documentation](./AUTHENTICATION_FLOW.md)** which includes comprehensive Mermaid diagrams showing:
+
+- **Architecture Overview**: Components and their relationships
+- **Authentication Sequence**: Step-by-step token acquisition process  
+- **Message Exchange Flow**: How messages are sent and received
+- **Configuration Flow**: Decision trees for authentication modes
+- **Network Traffic Overview**: HTTPS endpoints and data flow
+
+## Running the Application
+
 Type following to run
 
 cd "c:\Users\bau\Agents\Agents\samples\basic\copilotstudio-client\dotnet"
